@@ -1,4 +1,6 @@
-lista = []
+from typing import Any
+
+lista: list[Any] = []
 texto = ""
 
 if type(lista) is list:
