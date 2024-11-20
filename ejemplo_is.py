@@ -1,7 +1,6 @@
-from typing import Any
-
-lista: list[Any] = []
+lista = []
 texto = ""
+
 
 if type(lista) is list:
     print("lista es un objeto de la clase list")

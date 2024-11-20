@@ -1,6 +1,8 @@
 ciudades = ["Barcelona", "Roma", "París", "Londres"]
 letras = ["a", "b", ["cc", "dd"], "e", "f"]
 
+print("********_________************")
+
 for ciudad in ciudades:
     print(ciudad)
 

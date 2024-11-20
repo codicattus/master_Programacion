@@ -5,7 +5,8 @@ def change_pass(password):
 
     change_pass = str.maketrans(letter_init,letter_mod)
     change_pass = password.translate(change_pass)
-    return change_pass
+    
+    return change_pass+"@2050"
 
-print(change_pass("PollastreAlast@2022"))
+print(change_pass("PollastreAlast"))
     

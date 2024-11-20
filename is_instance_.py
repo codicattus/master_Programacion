@@ -6,6 +6,6 @@ def tipo_objeto(objeto):
     else:
         print(f"{objeto} no es ni una cadena de texto, ni un entero, ni una lista")
 
-print(tipo_objeto("Sarandonga"))
-print(tipo_objeto(5))
-print(tipo_objeto(4.25))
+tipo_objeto("Sarandonga")
+tipo_objeto(5)
+tipo_objeto(4.25)

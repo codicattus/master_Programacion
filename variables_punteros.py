@@ -169,6 +169,9 @@ cc.append(5)
 print(cc)
 print(dd)
 
+print(id(cc))
+print(id(dd))
+
 # Resultado :
 #
 # [5]

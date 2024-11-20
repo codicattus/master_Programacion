@@ -1,7 +1,7 @@
 import copy
 
 ciudades = ["Barcelona", "París", "Roma", "Londres", "Berlín"]
-numeros = [1, [21, 22, 23], 3, 4, [51, 52], 6, 7 , 8]
+
 
 cities = ciudades.copy() # Hace una copia poco profunda (Shallow Copy)
 
@@ -20,7 +20,10 @@ print(f"La dirección de memoria de la cities[0] es: {id(cities[0])}")
 #
 # ['Barcelona', 'París', 'Roma', 'Londres', 'Berlín']
 # ['Barcelona', 'París', 'Roma', 'Londres', 'Berlín']
-#
+# La dirección de memoria de la lista ciudades es: 1452622270848
+# La dirección de memoria de la lista cities es: 1452625394560  
+# La dirección de memoria de la ciudades[0] es: 1452625313072   
+# La dirección de memoria de la cities[0] es: 1452625313072  
 
 cities[0] = "Tokio"
 
@@ -39,10 +42,14 @@ print(f"La dirección de memoria de la cities[0] es: {id(cities[0])}")
 # ['Tokio', 'París', 'Roma', 'Londres', 'Berlín']
 #
 
+
+numeros = [1, [21, 22, 23], 3, 4, [51, 52], 6, 7 , 8]
+
 numbers = numeros.copy()
 
-print(numeros)
-print(numbers)
+print("=========================")
+print(id(numeros[1]))
+print(id(numbers[1]))
 
 # Resultado :
 #
@@ -50,10 +57,16 @@ print(numbers)
 # [1, [21, 22, 23], 3, 4, [51, 52], 6, 7, 8]
 #
 
+print("+++++++++++++++++++++++++++++++++++++++++++")
+numbers.pop()
+
+print("-------------------------------------------")
 numbers[1].pop()
 
+print("**********************************************")
 print(numeros)
 print(numbers)
+print("**********************************************")
 
 # Resultado :
 #
@@ -73,6 +86,7 @@ print(numbers_deep_copy)
 #
 
 numbers_deep_copy[1].append(23)
+numeros[1].pop()
 
 print(numeros)
 print(numbers_deep_copy)
