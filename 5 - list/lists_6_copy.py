@@ -8,6 +8,14 @@ cities = ciudades.copy() # Hace una copia poco profunda (Shallow Copy)
 print(ciudades)
 print(cities)
 
+print(f"La dirección de memoria de la lista ciudades es: {id(ciudades)}")
+print(f"La dirección de memoria de la lista cities es: {id(cities)}")
+
+print(f"La dirección de memoria de la ciudades[0] es: {id(ciudades[0])}")
+print(f"La dirección de memoria de la cities[0] es: {id(cities[0])}")
+
+
+
 # Resultado :
 #
 # ['Barcelona', 'París', 'Roma', 'Londres', 'Berlín']
@@ -18,6 +26,12 @@ cities[0] = "Tokio"
 
 print(ciudades)
 print(cities)
+
+print(f"La dirección de memoria de la lista ciudades es: {id(ciudades)}")
+print(f"La dirección de memoria de la lista cities es: {id(cities)}")
+
+print(f"La dirección de memoria de la ciudades[0] es: {id(ciudades[0])}")
+print(f"La dirección de memoria de la cities[0] es: {id(cities[0])}")
 
 # Resultado :
 #

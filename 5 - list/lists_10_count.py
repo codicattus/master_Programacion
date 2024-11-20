@@ -7,7 +7,7 @@ print(cities.count("arc"))
 
 # Resultado :
 #
-# 6
+# 3
 # 1
 # 0
 #
