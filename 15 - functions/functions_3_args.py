@@ -21,7 +21,7 @@ print(result)
 # *kwargs - permite pasar un número variable de argumentos nombrados a una función. 
 # Dentro de la función, **kwargs se comporta como un diccionario que contiene todos los argumentos adicionales con nombre.
 
-def show_info(**kwargs: dict) -> None:
+def show_info(**kwargs: int | str) -> None:
     """ Muestra información pasada como argumentos de palabra clave y la imprime en un formato legible. 
     
     Esta función acepta un número variable de argumentos de palabra clave (kwargs) y los imprime en un formato "clave: valor". Después de imprimir todos los pares clave-valor, imprime una línea de asteriscos para separar las llamadas a la función. 
