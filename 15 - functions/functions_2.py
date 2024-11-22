@@ -29,3 +29,15 @@ print(mult_5(8, 4))
 # 40
 # 32
 #
+
+def nombre_funcion(*args):
+    resultado = sum(args)
+
+    return resultado
+
+
+resultado = nombre_funcion(5, 5, 10, 40)
+print(resultado)
+
+
+
