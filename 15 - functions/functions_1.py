@@ -1,6 +1,9 @@
 def function_pass():
     pass
 
+
+
+
 def function_pass2():
     ...
 
@@ -30,9 +33,6 @@ result = sum_with_two_parameters_and_retorn_result(25,30)
 print(result)
 
 # Resultado : 55
-
-
-
 
 
 
