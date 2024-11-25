@@ -8,10 +8,11 @@ ciudades = (
     "Nueva York", 8804000
     )
 
-numeros = (1, 2, 3, 4, 5)
+numeros : tuple[int, ...]= (1, 2, 3, 4, 5)
 
 
 print(ciudades[4])
+
 
 # Resultado :
 #
@@ -42,3 +43,17 @@ print(numeros)
 # Resultado :
 #
 # (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+
+letras = ( "a", "b", ["c", "cc"], "d" )
+print(letras)
+print(type(letras))
+letras[2][0] = "cc"
+
+print(letras)
+
+# Resultado :
+#
+# ('a', 'b', ['c', 'cc'], 'd')
+# <class 'tuple'>
+# ('a', 'b', ['cc', 'cc'], 'd')

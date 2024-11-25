@@ -25,6 +25,8 @@ print(type(pueblos))
 
 capital = ("Barcelona")
 comunidad = ("Catalunya",)
+numeros = 1,
+print(type(numeros))
 
 print(type(capital))
 print(type(comunidad))
@@ -32,5 +34,6 @@ print(type(comunidad))
 # Resultado :
 #
 # <class 'str'>
+# <class 'tuple'>
 # <class 'tuple'>
 # 
