@@ -1,4 +1,4 @@
-ciudades = (
+ciudades : tuple[str | int, ...] = (
     "Barcelona", 1702814, 
     "París", 2206488, 
     "Roma", 2837332, 
@@ -35,9 +35,9 @@ print(ciudades.index("Sidney"))
 # Resultado :
 #
 # 10
-
+print(f"La {id(numeros)=}")
 numeros += 6, 7, 8, 9
-
+print(f"La {id(numeros)=}")
 print(numeros)
 
 # Resultado :
