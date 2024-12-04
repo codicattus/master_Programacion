@@ -10,10 +10,25 @@ for fila in matriz:
 
 print(matriz_aplanada) # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Aplanar la matriz (Método Phytonic)
 aplanada = [elemento for fila in matriz for elemento in fila]
 print(aplanada)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 # O más Phytonic aún...
-print([elemento for fila in matriz for elemento in fila])
+print(len([elemento for fila in matriz for elemento in fila]))
+
+# Realizar_5.py
