@@ -5,5 +5,12 @@ def generador():
 for indice, valor in enumerate(generador()):
     print(f"Índice: {indice}, Valor: {valor}")
 
-# print(next(generador()))
+nuevo_valor = generador()
+input("introduce un valor: ")
+print(next(nuevo_valor))
+input("introduce un valor: ")
+print(next(nuevo_valor))
+input("introduce un valor: ")
+print(next(nuevo_valor))
+
 
