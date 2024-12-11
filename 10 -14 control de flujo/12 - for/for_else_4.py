@@ -5,7 +5,7 @@ for number in numbers:
     if number == num_buscado:
         print(f"Número {num_buscado} encontrado 😀")
         break
-else:
+else: # Se ejecucatará si no se ha producido un break
     print(f"Número {num_buscado} no encontrado 😥")
 
 # Resultado :

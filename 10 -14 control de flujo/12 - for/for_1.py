@@ -1,3 +1,5 @@
+# ejercicio_6.py
+
 number_list = [1, 2, 3, 4, 17, 21, 33, 45]
 for number in number_list:
     print(number)
