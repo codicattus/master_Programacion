@@ -9,13 +9,13 @@ frutas = [
 
 # Ejercicio:
 # Realizar un script que recorra el listado de frutas indicando su peso.
-# En el caso que la fruta corresponda con "sandías" o "melones" se debe indicar las unidades en lugar del peso.
+# En el caso que la fruta se corresponda con "sandías" o "melones" se debe indicar las unidades en lugar del peso.
 
 # Resultado:
 #
 # Cantidad: 10kg. de manzanas.
 # Cantidad: 12kg. de peras.
-# Cantidad: 3kg. de sandías.
+# Cantidad: 3 sandías.
 # Cantidad: 14kg. de naranjas.
 # Cantidad: 18kg. de melocotones.
 
