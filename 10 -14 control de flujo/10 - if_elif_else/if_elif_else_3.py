@@ -11,6 +11,20 @@ print(resultado)
 # verdadero
 #
 
+# El siguiente ejemplo es a modo de muestra ya que su uso puede estar
+# desanconsejado por su posible falta de legibilidad
+
+opcion_1 = 5
+opcion_2 = 5
+opcion_3 = 3
+
+resultado = "izquierda" if opcion_1 > opcion_2 else "centro" if opcion_1 > opcion_3 else "derecha"
+print(resultado)
+
+
+
+
+
 a = 5
 b = 3
 c = 7

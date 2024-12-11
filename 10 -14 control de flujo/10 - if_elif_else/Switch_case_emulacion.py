@@ -47,7 +47,7 @@ def switch(case):
     return switcher.get(case, "tecla por defecto")
 
 print(switch(1))
-print(switch(4)) 
+print(switch("4")) 
 
 # Resultado :
 #

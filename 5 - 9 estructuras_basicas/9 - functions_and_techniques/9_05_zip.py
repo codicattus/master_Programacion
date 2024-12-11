@@ -6,6 +6,7 @@
 lista1 = [1, 2, 3]
 lista2 = ['a', 'b', 'c']
 combinados = list(zip(lista1, lista2))
+
 for num, letra in combinados:
     print(num, letra)  
     

@@ -34,6 +34,7 @@ else:
 # Esto solo se mostrará si el número es 0
 #
 
+
 # En otros lenguajes de programación
 
 # Javascript
@@ -41,14 +42,11 @@ else:
 """
 let numero = 5;
 
-if (numero > 10) 
-{
+if (numero > 10) {
     console.log("El número es mayor que 10.");
-} else if (numero > 5) 
-{
+} else if (numero > 5) {
     console.log("El número es mayor que 5 pero menor o igual a 10.");
-} else 
-{
+} else {
     console.log("El número es menor o igual a 5.");
 }
 """
@@ -58,14 +56,11 @@ if (numero > 10)
 """
 $numero = 5;
 
-if ($numero > 10) 
-{
+if ($numero > 10) {
     echo "El número es mayor que 10.";
-} elseif ($numero > 5) 
-{
+} elseif ($numero > 5) {
     echo "El número es mayor que 5 pero menor o igual a 10.";
-} else 
-{
+} else {
     echo "El número es menor o igual a 5.";
 }
 """
@@ -79,14 +74,11 @@ public class Main
     {
         int numero = 5;
 
-        if (numero > 10) 
-        {
+        if (numero > 10) {
             System.out.println("El número es mayor que 10.");
-        } else if (numero > 5) 
-        {
+        } else if (numero > 5) {
             System.out.println("El número es mayor que 5 pero menor o igual a 10.");
-        } else 
-        {
+        } else {
             System.out.println("El número es menor o igual a 5.");
         }
     }
@@ -101,14 +93,11 @@ public class Main
 int main() {
     int numero = 5;
 
-    if (numero > 10) 
-    {
+    if (numero > 10) {
         std::cout << "El número es mayor que 10." << std::endl;
-    } else if (numero > 5) 
-    {
+    } else if (numero > 5) {
         std::cout << "El número es mayor que 5 pero menor o igual a 10." << std::endl;
-    } else 
-    {
+    } else {
         std::cout << "El número es menor o igual a 5." << std::endl;
     }
 
@@ -122,14 +111,11 @@ int main() {
 fn main() {
     let numero = 5;
 
-    if numero > 10 
-    {
+    if numero > 10 {
         println!("El número es mayor que 10.");
-    } else if numero > 5 
-    {
+    } else if numero > 5 {
         println!("El número es mayor que 5 pero menor o igual a 10.");
-    } else 
-    {
+    } else {
         println!("El número es menor o igual a 5.");
     }
 }
