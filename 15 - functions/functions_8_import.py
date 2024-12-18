@@ -1,5 +1,5 @@
-# import series
-# import series as sr
+import series
+import series as sr
 from series import primos
 from series import fibonacci as fibo
 from series import factorial
