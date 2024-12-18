@@ -1,10 +1,10 @@
 def sumar_nums(*args):
-    global resultado
     resultado = 0
     for numero in args:
         resultado = resultado + numero
+    return resultado
 
-
-sumar_nums(12, 13)
+resultado = sumar_nums(12, 13)
+resultado *= 4
 print(resultado)
 

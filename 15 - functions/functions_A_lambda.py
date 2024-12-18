@@ -1,9 +1,9 @@
 # Definiendo una función lambda para duplicar un número
-duplicar = lambda x: x * 2
+duplicar = lambda x: x ** 2
 
 # Usando la función lambda
-resultado = duplicar(5)
-print(resultado)
+
+print(duplicar(6))
 
 
 sumar = lambda x, y: x + y

@@ -37,16 +37,16 @@ def show_info(**kwargs: int | str) -> None:
     print(f"{"*" * 20}")
 
 
-show_info(nombre="Juan", edad=18, ciudad="Barcelona")
+show_info(nombre="Juan", edad=18, ciudad="Barcelona", email="hola@hola.com")
 show_info(nombre="María", edad=20, ciudad="Madrid")
 show_info(nombre="Luis", ciudad="Madrid")
 
 
-def operations(num: int, *args: int) -> int:
-    return num * sum(args)
+def operations(num: int, num2: int, *args: int) -> int:
+    return num * sum(args) /num2
 
 
-print(operations(4, 2, 3))
+print(operations(4, 2, 3, 5))
 
 
 # Resultado:

@@ -1,9 +1,9 @@
 import series
-import series as sr
-from series import primos
-from series import fibonacci as fibo
-from series import factorial
+# import series as sr
+# from series import primos
+# from series import fibonacci as fb
+# from series import *
 
-print(primos(19))
-print(fibo())
-print(factorial(3))
+# print(primos(9))
+print(series.fibonacci(20))
+# print(factorial(3))

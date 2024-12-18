@@ -28,7 +28,7 @@ def verificar_positivo(numero):
     return f"El número {numero} es positivo"
 
 try:
-    resultado = verificar_positivo(-5)
+    resultado = verificar_positivo(5)
     print(resultado)
 except ValueError as e:
     print(f"Error: {e}")
