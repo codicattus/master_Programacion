@@ -8,10 +8,15 @@ def dividir(a, b):
         raise ZeroDivisionError("El divisor no puede ser cero")
     return a / b
 
+dividendo, divisor = 10, 0
 try:
-    resultado = dividir(10, 0)
+    resultado = dividir(dividendo, divisor)
 except ZeroDivisionError as e:
-    print(f"Error: {e}")
+    resultado = f"Error: {e}"
+
+
+print(resultado)
+
 
 # Resultado:
 #
