@@ -1,4 +1,4 @@
-def switch(tecla):
+def switcher(tecla):
     match tecla:
         case 1: 
             return "tecla 1 pulsada"
@@ -23,8 +23,8 @@ def switch(tecla):
         case _:
             return "no has pulsado un número"
         
-print(switch(5))
-print(switch("hola"))
+print(switcher(5))
+print(switcher("hola"))
     
 # Resultado:
 #

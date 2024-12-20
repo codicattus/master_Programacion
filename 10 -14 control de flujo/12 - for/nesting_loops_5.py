@@ -1,5 +1,5 @@
 columnas = 5
-filas = 4
+filas = 5
 char ="*"
 
 for _ in range(filas):

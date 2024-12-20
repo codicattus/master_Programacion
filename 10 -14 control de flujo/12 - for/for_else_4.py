@@ -1,5 +1,5 @@
 numbers = [1, 5, 2, 4, 6, 7, 8, 9, 11, 25]
-num_buscado = 3
+num_buscado = 5
 
 for number in numbers:
     if number == num_buscado:

@@ -16,7 +16,7 @@ print(resultado)
 
 opcion_1 = 5
 opcion_2 = 5
-opcion_3 = 3
+opcion_3 = 6
 
 resultado = "izquierda" if opcion_1 > opcion_2 else "centro" if opcion_1 > opcion_3 else "derecha"
 print(resultado)

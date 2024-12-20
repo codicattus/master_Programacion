@@ -1,5 +1,5 @@
-def calcular_area(*args):
-    match args:
+def calcular_area(datos):
+    match datos:
         case ("rectángulo", base, altura):
             return (f"Área del rectángulo: {base * altura}")
         case ("círculo", radio):
@@ -11,11 +11,11 @@ def calcular_area(*args):
         case _:
             return ("Figura desconocida")
 
-area_rectangulo = calcular_area("rectángulo", 5, 3)
-area_hexagono = calcular_area("hexágono", 18, 2.7)
+area_rectangulo = calcular_area(("rectángulo", 5))
+#area_hexagono = calcular_area("hexágono", 18, 2.7)
 print(area_rectangulo)
-print(area_hexagono)
-print(calcular_area("círculo", 4))
+#print(area_hexagono)
+#print(calcular_area("círculo", 4))
 
 
 # Resultado:
