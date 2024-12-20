@@ -1,11 +1,11 @@
-def ejemplo_posicional(nombre, edad, /):
+def ejemplo_posicional(nombre, edad,/):
     print(f"nombre: {nombre}, edad: {edad}")
 
 # Correcto
 ejemplo_posicional("Alicia", 30)
 
 # Incorrecto
-# ejemplo_posicional(nombre="Alicia", edad=30)  
+# ejemplo_posicional(edad=30, nombre="Alicia")  
 # TypeError: ejemplo_posicional() got some positional-only arguments passed as keyword arguments: 'nombre, edad'
 
 def ejemplo_mixto(nombre, edad, /, a, b):

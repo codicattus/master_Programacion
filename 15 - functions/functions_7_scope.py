@@ -9,19 +9,20 @@ def quitar_vida(cantidad = 1):
         vidas -= cantidad
 
 def add_vida(cantidad = 1):
-    global vidas
+    vidas = 2
     if vidas <= 4:
         vidas += cantidad
+    return vidas
 
 def ver_vidas():
     print(vidas)
 
-# reiniciar_vida()
-# print(vidas)
+reiniciar_vida()
+print(vidas)
 # add_vida()
 # print(vidas)
 # quitar_vida(2)
 # print(vidas)
-# add_vida()
-# print(vidas)
+print(add_vida())
+
 # ver_vidas()

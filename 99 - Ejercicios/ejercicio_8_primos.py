@@ -5,16 +5,16 @@ def comprobar_numeros(dividendo):
         return False
     for divisor in range(2,dividendo):
         if dividendo % divisor == 0:
-            break
+            return False
     else:
         return True
 
 # start_time = time.time()
 
-numeros_primos = list(filter(comprobar_numeros, range(100)))
+numeros_primos = list(filter(comprobar_numeros, range(1000)))
 
 print(numeros_primos)
-
+# print(comprobar_numeros(117))
 # end_time = time.time()
 # print(f"Tiempo de ejecución: {end_time - start_time} segundos")
 

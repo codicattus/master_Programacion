@@ -20,9 +20,9 @@ while count < 5:
 let i = 0;
 
 // Bucle while
-while (i < 5) 
+while (i < 5)
 {
-    console.log(i);
+    console.log(i); 
     i++;
 }
 
