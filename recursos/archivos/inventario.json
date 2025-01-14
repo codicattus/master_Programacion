@@ -1,0 +1,437 @@
+[
+    {
+        "nombre": "Camiseta Básica",
+        "precio": 15.99,
+        "tallas": {
+            "S": 5,
+            "M": 4,
+            "L": 7
+        }
+    },
+    {
+        "nombre": "Camiseta Sport",
+        "precio": 12.99,
+        "tallas": {
+            "S": 2,
+            "M": 8,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Pantalón Vaquero",
+        "precio": 49.99,
+        "tallas": {
+            "M": 6,
+            "L": 8,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Sudadera",
+        "precio": 29.99,
+        "tallas": {
+            "S": 2,
+            "M": 8,
+            "L": 3
+        }
+    },
+    {
+        "nombre": "Camiseta de Tirantes",
+        "precio": 10.99,
+        "tallas": {
+            "S": 8,
+            "M": 6,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Falda Corta",
+        "precio": 25.99,
+        "tallas": {
+            "S": 3,
+            "M": 5,
+            "L": 7
+        }
+    },
+    {
+        "nombre": "Blusa de Seda",
+        "precio": 35.99,
+        "tallas": {
+            "S": 6,
+            "M": 4,
+            "L": 3
+        }
+    },
+    {
+        "nombre": "Pantalones Cortos",
+        "precio": 19.99,
+        "tallas": {
+            "S": 7,
+            "M": 5,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Chaqueta de Cuero",
+        "precio": 89.99,
+        "tallas": {
+            "M": 3,
+            "L": 5,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Jersey",
+        "precio": 39.99,
+        "tallas": {
+            "S": 5,
+            "M": 7,
+            "L": 3
+        }
+    },
+    {
+        "nombre": "Vestido de Noche",
+        "precio": 79.99,
+        "tallas": {
+            "S": 2,
+            "M": 3,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Bermuda",
+        "precio": 22.99,
+        "tallas": {
+            "M": 6,
+            "L": 4,
+            "XL": 3
+        }
+    },
+    {
+        "nombre": "Abrigo Largo",
+        "precio": 109.99,
+        "tallas": {
+            "M": 3,
+            "L": 5,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Top Deportivo",
+        "precio": 18.99,
+        "tallas": {
+            "S": 5,
+            "M": 7,
+            "L": 2
+        }
+    },
+    {
+        "nombre": "Leggings",
+        "precio": 29.99,
+        "tallas": {
+            "S": 3,
+            "M": 8,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Bufanda",
+        "precio": 9.99,
+        "tallas": {
+            "U": 20
+        }
+    },
+    {
+        "nombre": "Gorra",
+        "precio": 14.99,
+        "tallas": {
+            "U": 15
+        }
+    },
+    {
+        "nombre": "Chaleco",
+        "precio": 44.99,
+        "tallas": {
+            "M": 4,
+            "L": 5,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Zapatillas Deportivas",
+        "precio": 59.99,
+        "tallas": {
+            "38": 6,
+            "39": 4,
+            "40": 7
+        }
+    },
+    {
+        "nombre": "Sandalias",
+        "precio": 24.99,
+        "tallas": {
+            "36": 3,
+            "37": 5,
+            "38": 4
+        }
+    },
+    {
+        "nombre": "Bota Alta",
+        "precio": 99.99,
+        "tallas": {
+            "39": 2,
+            "40": 3,
+            "41": 2
+        }
+    },
+    {
+        "nombre": "Cinturón de Cuero",
+        "precio": 19.99,
+        "tallas": {
+            "M": 7,
+            "L": 5,
+            "XL": 3
+        }
+    },
+    {
+        "nombre": "Gafas de Sol",
+        "precio": 29.99,
+        "tallas": {
+            "U": 10
+        }
+    },
+    {
+        "nombre": "Reloj de Pulsera",
+        "precio": 149.99,
+        "tallas": {
+            "U": 5
+        }
+    },
+    {
+        "nombre": "Anillo",
+        "precio": 49.99,
+        "tallas": {
+            "6": 2,
+            "7": 3,
+            "8": 1
+        }
+    },
+    {
+        "nombre": "Collar de Perlas",
+        "precio": 69.99,
+        "tallas": {
+            "U": 7
+        }
+    },
+    {
+        "nombre": "Pulsera",
+        "precio": 34.99,
+        "tallas": {
+            "U": 8
+        }
+    },
+    {
+        "nombre": "Mochila",
+        "precio": 59.99,
+        "tallas": {
+            "U": 6
+        }
+    },
+    {
+        "nombre": "Bolso de Mano",
+        "precio": 79.99,
+        "tallas": {
+            "U": 4
+        }
+    },
+    {
+        "nombre": "Sombrero",
+        "precio": 24.99,
+        "tallas": {
+            "U": 12
+        }
+    },
+    {
+        "nombre": "Guantes",
+        "precio": 19.99,
+        "tallas": {
+            "S": 6,
+            "M": 8,
+            "L": 5
+        }
+    },
+    {
+        "nombre": "Corbata",
+        "precio": 29.99,
+        "tallas": {
+            "U": 10
+        }
+    },
+    {
+        "nombre": "Pijamas",
+        "precio": 39.99,
+        "tallas": {
+            "M": 3,
+            "L": 4,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Bañador",
+        "precio": 24.99,
+        "tallas": {
+            "S": 5,
+            "M": 6,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Chaqueta Impermeable",
+        "precio": 59.99,
+        "tallas": {
+            "M": 4,
+            "L": 3,
+            "XL": 2
+        }
+    },
+    {
+        "nombre": "Cazadora Vaquera",
+        "precio": 79.99,
+        "tallas": {
+            "M": 3,
+            "L": 5,
+            "XL": 4
+        }
+    },
+    {
+        "nombre": "Mono",
+        "precio": 39.99,
+        "tallas": {
+            "S": 6,
+            "M": 5,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Botines",
+        "precio": 89.99,
+        "tallas": {
+            "38": 3,
+            "39": 4,
+            "40": 2
+        }
+    },
+    {
+        "nombre": "Pantalón Chándal",
+        "precio": 34.99,
+        "tallas": {
+            "M": 6,
+            "L": 4,
+            "XL": 3
+        }
+    },
+    {
+        "nombre": "Blazer",
+        "precio": 69.99,
+        "tallas": {
+            "S": 4,
+            "M": 3,
+            "L": 2
+        }
+    },
+    {
+        "nombre": "Camisa de Manga Corta",
+        "precio": 24.99,
+        "tallas": {
+            "S": 5,
+            "M": 6,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Pantalón Corto",
+        "precio": 29.99,
+        "tallas": {
+            "M": 5,
+            "L": 4,
+            "XL": 3
+        }
+    },
+    {
+        "nombre": "Camiseta de Rayas",
+        "precio": 19.99,
+        "tallas": {
+            "S": 6,
+            "M": 5,
+            "L": 4
+        }
+    },
+    {
+        "nombre": "Bata",
+        "precio": 44.99,
+        "tallas": {
+            "S": 2,
+            "M": 3,
+            "L": 1
+        }
+    },
+    {
+        "nombre": "Polo",
+        "precio": 34.99,
+        "tallas": {
+            "M": 6,
+            "L": 7,
+            "XL": 5
+        }
+    },
+    {
+        "nombre": "Camisón",
+        "precio": 29.99,
+        "tallas": {
+            "S": 3,
+            "M": 4,
+            "L": 2
+        }
+    },
+    {
+        "nombre": "Calcetines",
+        "precio": 7.99,
+        "tallas": {
+            "U": 20
+        }
+    },
+    {
+        "nombre": "Chal",
+        "precio": 49.99,
+        "tallas": {
+            "U": 10
+        }
+    },
+    {
+        "nombre": "Camiseta de Manga Larga",
+        "precio": 17.99,
+        "tallas": {
+            "S": 4,
+            "M": 6,
+            "L": 5
+        }
+    },
+    {
+        "nombre": "Camiseta Lacoste",
+        "precio": 19.99,
+        "tallas": {
+            "S": 5,
+            "M": 3,
+            "L": 2
+        }
+    },
+    {
+        "nombre": "Pantalón Emidio Tucci",
+        "precio": 19.99,
+        "tallas": {
+            "S": 5,
+            "M": 3,
+            "L": 2
+        }
+    }
+]

@@ -1,15 +1,10 @@
 from pathlib import Path
 
-archivo = "Mitología griega.txt"
-# Con solo el nombre del archivo es probable que algunos IDE nos de algún problema
+ruta_carpeta = Path(__file__).parent
+ruta_archivo = ruta_carpeta / "Mitología griega.txt"
 
-print(archivo)
-leer_archivo = open(archivo, "r", encoding="UTF-8")
-contenido = leer_archivo.read()  # Lee TODO el contenido del archivo de golpe
+leer_archivo = open(ruta_archivo, "r", encoding="UTF-8")
+contenido = leer_archivo.read()
 print(contenido)
-leer_archivo.close() # Es importante cerrar el archivo después de usarlo para liberar los recursos del sistema.
-
-
-# archivo = Path("Mitología griega.txt")
-# print(archivo.read_text())
+leer_archivo.close()
 

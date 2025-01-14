@@ -81,11 +81,15 @@ def mostrar_inventario():
             print(f"  {talla}: {cantidad} unidades")
 
 def buscar_prenda(nombre):
+    found = False
     for prenda in inventario:
         if nombre.lower() in prenda['nombre'].lower():
             print(f"\nEncontrada: {prenda['nombre']}")
             print(f"Precio: {prenda['precio']}€")
             print("Tallas:", prenda['tallas'])
+            found = True
+    if not found:
+        print(f"\nLa prenda buscada ({nombre}) no está disponible")
 
 def filtrar_por_precio(min_precio, max_precio):
     print(f"\nPrendas con precio entre {min_precio}€ y {max_precio}€:")
@@ -120,6 +124,11 @@ inventario = [
         "tallas": {"S": 5, "M": 4, "L": 7}
     },
     {
+        "nombre": "Camiseta Sport",
+        "precio": 12.99,
+        "tallas": {"S": 2, "M": 8, "L": 4}
+    },
+    {
         "nombre": "Pantalón Vaquero",
         "precio": 49.99,
         "tallas": {"M": 6, "L": 8, "XL": 2}
@@ -131,6 +140,8 @@ inventario = [
     }
 ]
 
+# mostrar_inventario()
+# buscar_prenda("Chancla")
+# filtrar_por_precio(20, 50)
+actualizar_cantidad("camiseta básica", "S", 10)
 mostrar_inventario()
-buscar_prenda("Pantalón")
-filtrar_por_precio(20, 50)
